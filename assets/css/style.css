@@ -1,0 +1,133 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    
+ h1{
+    font-weight: 400;
+    font-family: Raleway,Medium;
+    padding: 15px;
+    background-color: #000000;
+    text-align: center;
+    }
+
+body nav{
+    font-family: 'Raleway';
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    }
+
+header{
+    background-color: #000000;
+    }
+
+header img{
+    background-color: #000000;
+    height: 752px;
+    width: 100%;
+    left: 40px;    
+    top: 70px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+#Sobre-las-Iguanas{
+    font-family: Raleway,Light;
+    background-color: #000000;
+    color: white;
+    padding: 100px;
+    }
+
+#Sobre-las-Iguanas img{
+    height: 300px;
+    }
+    
+#Sobre-las-Iguanas .wrapper, .texto{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;    
+    }
+
+#Sobre-las-Iguanas .texto{
+    font-size: 20px;
+    text-align: left;
+    width: 40%;
+    text-align: justify;
+    padding: 100px;
+    }
+
+   
+#TIPS{
+    font-family: Raleway,Light;
+    background-color: #1e1a13;    
+    color: white;
+    text-align: center;
+    padding: 30px;
+    }
+
+#TIPS li{
+    font-weight: 100;
+    display: inline-block;
+    border: 80px;
+    padding: 50px;
+}
+
+i{
+    font-size: 40px;
+    }    
+
+#TIPS h2{
+    font-weight: 400;
+    font-family: Raleway,Medium;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    }
+
+#cuadros{
+    background-color: #000000;
+    padding: 30px;
+    }
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    }
+
+.alinear{
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;    
+    }
+
+.oscuro{
+    background-color: black;
+    }
+
+ul,p,h1,h2{
+    color: #FFF
+    }
+
+li{
+    list-style: none;
+}
+
+.characters{
+    background-color: #1e1a13;
+    }
+
+footer{
+        font-family: Raleway,Light;
+        background-color: #1e1a13;
+        color: white;
+        font-size: 20px;
+        padding: 100px;
+        text-align: center;
+    }
